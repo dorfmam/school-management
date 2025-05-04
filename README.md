@@ -6,19 +6,19 @@ This is a Object-Oriented Programming project developed in TypeScript. The purpo
 
 **## 📰 Classes**
 
-**### 👤 Pessoa**
+** 👤 Pessoa**
 
 - Represents a generic person in the system, storing basic information such as name, CPF and e-mail.
 
-**### 👥 Turma**
+** 👥 Turma**
 
 - Represents a school class. It stores the class name, the assigned professor, and a list of enrolled students. It provides methods to add students, list all students, and display each student's report card.
 
-**### 👨‍🏫 Professor (extends Pessoa)**
+** 👨‍🏫 Professor (extends Pessoa)**
 
 - Represents a teacher. Besides the basic information inherited from Pessoa, it stores the subject the teacher is responsible for.
 
-**### 👩‍🎓 ALuno (extends Pessoa)**
+** 👩‍🎓 ALuno (extends Pessoa)**
 
 - Represents a student. In addition to the inherited information from Pessoa, it also includes a registration number and grades by subject. It provides methods to add grades, calculate averages, check if the student has passed, and display the student's report card.
 
@@ -26,14 +26,14 @@ This is a Object-Oriented Programming project developed in TypeScript. The purpo
 
 ## 🔧 Installation
 
-**### ✅ Prerequisites**
+** ✅ Prerequisites**
 
 Make sure you've installed:
 
 - **Node.js** (v18 or higher)
 - **npm** or **yarn**
 
-### ⭐ **Steps to run the project locally**
+ ⭐ **Steps to run the project locally**
 
 1. **Clone the repository**
     ```bash
