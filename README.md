@@ -1,10 +1,10 @@
-📚 School Management System - TypeScript
+📚 **School Management System - TypeScript**
 
 This is a Object-Oriented Programming project developed in TypeScript. The purpose of this project is simulate a school grade system, where there are students, teachers and the class management.
 
 ---
 
-📰 Classes
+📰 **Classes**
 
 👤 Pessoa
 
@@ -24,7 +24,7 @@ This is a Object-Oriented Programming project developed in TypeScript. The purpo
 
 ---
 
-🔧 Installation
+🔧 **Installation**
 
 ✅ Prerequisites
 
@@ -58,7 +58,7 @@ Make sure you've installed:
     node build/main.js
     ```
 
-🌐 Project Structure
+🌐 **Project Structure**
 
 ```
 school-management-system/
@@ -101,7 +101,7 @@ Feel free to contribute! To contribute:
    ```
 5. **Open a Pull Request.**
 
-## 📧 Contact
+**📧 Contact**
 
 If you have any questions or suggestions, feel free to reach out:
 
