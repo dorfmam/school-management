@@ -106,6 +106,5 @@ alunos[6].adicionarNota("Matemática", [6, 5, 6, 7]);
 alunos[7].adicionarNota("Matemática", [3, 3, 5, 6]);
 alunos[8].adicionarNota("Matemática", [2, 4, 5, 3]);
 alunos[9].adicionarNota("Matemática", [8, 10, 10, 9]);
-alunos[10].adicionarNota("Matemática", [6, 8, 7, 7]);
 
 turmaMatematica.exibirNotas();
