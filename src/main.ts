@@ -21,35 +21,69 @@ const turmaMatematica = new Turma(
 professoraMatematica.exibirResumo();
 
 const alunos: Aluno[] = [
-    new Aluno("Maria Clara Souza", "123.456.789-00", "mariaclara@gmail.com", 1),
-    new Aluno("João Pedro Martins", "112.233.445-66", "joaopedro@gmail.com", 2),
+    new Aluno(
+        "Maria Clara Souza", 
+        "123.456.789-00", 
+        "mariaclara@gmail.com", 
+        1
+    ),
+        
+    new Aluno(
+        "João Pedro Martins", 
+        "112.233.445-66", 
+        "joaopedro@gmail.com", 
+        2
+    ),
+
     new Aluno(
         "Vinícius da Silva",
         "321-654-987-00",
         "viniciussilva@gmail.com",
         3
     ),
+
     new Aluno(
         "Letícia do Nascimento",
         "110.220.330-44",
         "leticiadonascimento@gmail.com",
         4
     ),
+
     new Aluno(
         "Juliana Campos",
         "101.202.303-40",
         "julianacampos.@gmail.com",
         5
     ),
-    new Aluno("Pedro Fagundes", "133.155.177-99", "pedrofagundes@gmail.com", 6),
+
+    new Aluno(
+        "Pedro Fagundes", 
+        "133.155.177-99", 
+        "pedrofagundes@gmail.com", 
+        6
+    ),
+
     new Aluno(
         "Miriam Oliveira",
         "660.770.880-99",
         "miriamoliveira@gmail.com",
         7
     ),
-    new Aluno("Gabriel Xavier", "414.515.616.71", "gabrielxavier@gmail.com", 8),
-    new Aluno("Luan Teixeira", "255.366.477-88", "luanteixeira@gmail.com", 9),
+
+    new Aluno(
+        "Gabriel Xavier",
+        "414.515.616.71",
+        "gabrielxavier@gmail.com",
+        8
+    ),
+
+    new Aluno(
+        "Luan Teixeira",
+        "255.366.477-88",
+        "luanteixeira@gmail.com",
+        9
+    ),
+    
     new Aluno(
         "Nicole Barbosa",
         "988.977.966-95",
