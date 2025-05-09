@@ -18,11 +18,9 @@ This is a Object-Oriented Programming project developed in TypeScript. The purpo
 
 - Represents a teacher. Besides the basic information inherited from Pessoa, it stores the subject the teacher is responsible for.
 
-<<<<<<< HEAD
 ** 👩‍🎓 ALuno (extends Pessoa)**
-=======
+
 **### 👩‍🎓 Aluno (extends Pessoa)**
->>>>>>> 9745cc023c185c4825078394e58fcdfb7389b7ae
 
 - Represents a student. In addition to the inherited information from Pessoa, it also includes a registration number and grades by subject. It provides methods to add grades, calculate averages, check if the student has passed, and display the student's report card.
 
