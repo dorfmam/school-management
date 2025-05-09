@@ -1,49 +1,49 @@
-# 📚 School Management System - TypeScript
+📚 **School Management System - TypeScript**
 
 This is a Object-Oriented Programming project developed in TypeScript. The purpose of this project is simulate a school grade system, where there are students, teachers and the class management.
 
 ---
 
-**## 📰 Classes**
+📰 **Classes**
 
-** 👤 Pessoa**
+👤 **Pessoa**
 
-- Represents a generic person in the system, storing basic information such as name, CPF and e-mail.
+-   Represents a generic person in the system, storing basic information such as name, CPF and e-mail.
 
-** 👥 Turma**
+👥 **Turma**
 
-- Represents a school class. It stores the class name, the assigned professor, and a list of enrolled students. It provides methods to add students, list all students, and display each student's report card.
+-   Represents a school class. It stores the class name, the assigned professor, and a list of enrolled students. It provides methods to add students, list all students, and display each student's report card.
 
-** 👨‍🏫 Professor (extends Pessoa)**
+👨‍🏫 **Professor (extends Pessoa)**
 
-- Represents a teacher. Besides the basic information inherited from Pessoa, it stores the subject the teacher is responsible for.
+-   Represents a teacher. Besides the basic information inherited from Pessoa, it stores the subject the teacher is responsible for.
 
-** 👩‍🎓 ALuno (extends Pessoa)**
+👩‍🎓 **Aluno (extends Pessoa)**
 
-**### 👩‍🎓 Aluno (extends Pessoa)**
-
-- Represents a student. In addition to the inherited information from Pessoa, it also includes a registration number and grades by subject. It provides methods to add grades, calculate averages, check if the student has passed, and display the student's report card.
+-   Represents a student. In addition to the inherited information from Pessoa, it also includes a registration number and grades by subject. It provides methods to add grades, calculate averages, check if the student has passed, and display the student's report card.
 
 ---
 
-## 🔧 Installation
+🔧 **Installation**
 
-** ✅ Prerequisites**
+✅ **Prerequisites**
 
 Make sure you've installed:
 
-- **Node.js** (v18 or higher)
-- **npm** or **yarn**
+-   **Node.js** (v18 or higher)
+-   **npm** or **yarn**
 
- ⭐ **Steps to run the project locally**
+⭐ **Steps to run the project locally**
 
 1. **Clone the repository**
+
     ```bash
     git clone https://github.com/dorfmam/sistema-escolar.git
     cd typescript-class
     ```
 
 2. **Install dependencies**
+
     ```bash
     npm install
     # or
@@ -51,6 +51,7 @@ Make sure you've installed:
     ```
 
 3. **Compile the code from TypeScript to JavaScript**
+
     ```bash
     npx tsc
     ```
@@ -60,7 +61,7 @@ Make sure you've installed:
     node build/main.js
     ```
 
-## 🌐 Project Structure
+🌐 **Project Structure**
 
 ```
 school-management-system/
@@ -91,21 +92,21 @@ Feel free to contribute! To contribute:
 1. **Fork the repository.**
 2. **Create a feature branch:**
     ```bash
-   git checkout -b feature/new-feature
+    git checkout -b feature/new-feature
     ```
 3. **Commit your changes:**
-   ```bash
-   git commit -m 'Adding new feature'
-   ```
+    ```bash
+    git commit -m 'Adding new feature'
+    ```
 4. **Push to the remote repository:**
-   ```bash
-   git push origin feature/new-feature
-   ```
+    ```bash
+    git push origin feature/new-feature
+    ```
 5. **Open a Pull Request.**
 
-## 📧 Contact
+**📧 Contact**
 
 If you have any questions or suggestions, feel free to reach out:
 
-- **Author**: [Caio Dorfmam](https://github.com/dorfmam/main)
-- **Email**: contatodorfmam@gmail.com
+-   **Author**: [Caio Dorfmam](https://github.com/dorfmam/main)
+-   **Email**: contatodorfmam@gmail.com
